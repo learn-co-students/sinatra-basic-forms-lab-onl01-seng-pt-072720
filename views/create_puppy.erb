@@ -1,3 +1,4 @@
+
 <form method="post" action="/puppy">
   <label for="name"> Puppy Name</label>
   <input type="text" id="name" name="name">
@@ -7,3 +8,14 @@
   <input type="text" id="age" name="age">
   <input type="submit" value="submit">
 </form>
+
+<%# Now, we need a form for a user to list a new puppy that is
+   available for adoption. You can review this form in `views/create_puppy.erb`.
+   Remember, you'll need to set up another controller action for a user to be
+   able to view this form in the browser. The "submit" button
+   of a form can be an `<input>` element with a `type` of `"submit"` (or a
+   `<button>` element with a `type` of `"submit`) — a plain old `<button>`
+   won't do it. If you want to change the text in the button, check out these docs:
+
+   - [MDN: Input — submit](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit)
+   - [MDN: Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button) %>
